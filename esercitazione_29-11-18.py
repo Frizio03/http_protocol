@@ -3,7 +3,7 @@ import json
 
 def accreditamento():
 	url = "http://192.168.1.231:8080/accreditamento"
-	response = requests.post(url, json = {"nome": "Fabrizio Tedeschi"})
+	response = requests.post(url, json = {"nome": "Nome Cognome"})
 	print(response.json())
 
 #rendere tutti i numeri positivi
